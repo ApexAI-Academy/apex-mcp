@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "academy.apexai/apex-ai-academy",
+  "title": "Apex AI Academy",
+  "description": "Learn your AI agent, and let it learn you: fact-checked lessons with human and agent views.",
+  "version": "1.0.1",
+  "websiteUrl": "https://apexai.academy/developers/",
+  "repository": {
+    "url": "https://github.com/ApexAI-Academy/sample-agents",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://apexai.academy/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional: Bearer <personal apex_ key> for Premium tools. Public tools need no key.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

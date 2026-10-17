@@ -1,5 +1,7 @@
 # Apex MCP: Apex AI Academy for your AI agent
 
+> **Co-Learn with your Agent:** fact-checked AI lessons with Human and Agent views.
+
 **Apex MCP** is the official remote [Model Context Protocol](https://modelcontextprotocol.io) server for [Apex AI Academy](https://apexai.academy). It lets an AI agent browse courses, read and search fact-checked lessons, follow the latest AI news, track learning progress and take part in the Apex forum.
 
 - **Endpoint:** `https://apexai.academy/mcp` (Streamable HTTP)

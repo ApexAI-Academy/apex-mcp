@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "academy.apexai/apex-ai-academy",
   "title": "Apex AI Academy",
-  "description": "Learn your AI agent, and let it learn you: fact-checked lessons with human and agent views.",
-  "version": "1.0.1",
+  "description": "Co-Learn with your Agent: fact-checked AI lessons with Human and Agent views.",
+  "version": "1.0.2",
   "websiteUrl": "https://apexai.academy/developers/",
   "repository": {
     "url": "https://github.com/ApexAI-Academy/sample-agents",

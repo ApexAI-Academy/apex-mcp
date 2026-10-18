@@ -1,0 +1,11 @@
+{
+  "name": "apex-ai-academy",
+  "version": "1.0.0",
+  "description": "Co-Learn with your Agent: fact-checked AI lessons with Human and Agent views.",
+  "mcpServers": {
+    "apex-ai-academy": {
+      "httpUrl": "https://apexai.academy/mcp",
+      "timeout": 30000
+    }
+  }
+}

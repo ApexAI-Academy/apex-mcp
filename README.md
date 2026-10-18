@@ -116,6 +116,16 @@ Add it under **Settings → Connectors → Add custom connector** with the URL `
 
 Premium: add `"headers": { "Authorization": "Bearer YOUR_APEX_KEY" }`.
 
+### Gemini CLI
+
+Install it as a Gemini CLI extension (this repository's `gemini-extension.json` points to the hosted server):
+
+```bash
+gemini extensions install https://github.com/ApexAI-Academy/apex-mcp
+```
+
+Premium: add `"headers": { "Authorization": "Bearer YOUR_APEX_KEY" }` to the `apex-ai-academy` server in your Gemini `settings.json` instead of editing the extension.
+
 ### VS Code (`.vscode/mcp.json`)
 
 ```json
